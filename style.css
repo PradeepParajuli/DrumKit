@@ -1,0 +1,162 @@
+*{
+	background-color: rgb(255, 255, 255);
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*:root{
+	--R-Position-top: 10vh;
+	--R-Position-left: 30vh;
+
+	--U-Position-top: 29vh;
+	--U-Position-left: 78vw;
+
+	--G-Position-top: 17vh;
+	--G-Position-left: 30vw;
+
+	--F-Position-top: 45Vh;
+	--F-Position-left: 25vw;
+
+	--J-Position-top: 35vh;
+	--J-Position-left: 70vw;
+
+	--H-Position-top: 17vh;
+	--H-Position-left: 60vw;
+
+	--V-Position-top: 60vh;
+	--V-Position-left: 44vw;
+
+	--N-Position-top: 60vh;
+	--N-Position-left: 48vw;
+}
+body{
+	max-height: 700px;
+	max-width: 500px;
+}
+.container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* gap: 10px; */
+	width: 100vw;
+	height: 100vh;
+}
+main{
+	position: relative;
+	max-height: inherit;
+	max-width: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.drum-kit{
+ width: inherit;
+ height: auto;
+ max-height: 755px;
+ max-width: 500px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+/* .styles{
+
+} */
+
+
+
+.info-container{
+	background-color: aqua;
+	/* border: solid 4px brown; */
+	height: auto;
+	width: 97vw;
+	margin: auto;
+	padding: 2px;
+}
+
+/* Buttons */
+.over-text{
+	position: fixed;
+	min-height: inherit;
+	max-height: inherit;
+	min-width: inherit;
+	max-width: inherit;
+}
+.clap{
+	display: inline-block;
+	position: absolute;
+	padding: 4px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: .5;
+	border: 2px black solid;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.clap:hover{
+	opacity: .9;
+	transform: scale(1.1);
+}
+
+.on-btn-press{
+	opacity: .9;
+	transform: scale(1.1);
+}
+
+.R{
+	top: var(--R-Position-top);
+	left: var(--R-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+
+.U{
+	top: var(--U-Position-top);
+	left: var(--U-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+
+.G{
+	top: var(--G-Position-top);
+	left: var(--G-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+
+.F{
+	top: var(--F-Position-top);
+	left: var(--F-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+
+.J{
+	top: var(--J-Position-top);
+	left: var(--J-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+
+.H{
+	top: var(--H-Position-top);
+	left: var(--H-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+
+.V{
+	top: var(--V-Position-top);
+	left: var(--V-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
+.N{
+	top: var(--N-Position-top);
+	left: var(--N-Position-left);
+	background-color: rgb(168, 168, 247) !important;
+	z-index: 10;
+}
